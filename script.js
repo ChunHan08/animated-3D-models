@@ -1,3 +1,4 @@
+
 const model = new Zdog.Illustration({
   element: ".hackclub",
   dragRotate: true,
@@ -7,7 +8,7 @@ new Zdog.Box({
   addTo: model,
   width: 100,
   height: 100,
-  color: '#ec3750',
+  color: '#0B1EDE',
   stroke:20,
   translate: { z: -18 },
 })
@@ -17,7 +18,7 @@ new Zdog.Box({
   depth:20,
   width: 20,
   height:80,
-  color: '#fff',
+  color: '#FF2B2B',
   translate: { z: 18, x:-20},
 })
 
@@ -26,7 +27,7 @@ new Zdog.Box({
   depth:20,
   width: 20,
   height:40,
-  color: '#fff',
+  color: '#FF2B2B',
   translate: { z: 18, y:20,x:20,},
 })
 
@@ -35,7 +36,7 @@ new Zdog.Box({
   depth:20,
   width: 20,
   height:20,
-  color: '#fff',
+  color: '#FF2B2B',
   translate: { z: 18, x:10},
 })
 
